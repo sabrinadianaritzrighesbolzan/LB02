@@ -1,0 +1,78 @@
+h1 {
+    font-size: 50px;
+    color: thistle;
+    text-align: left;
+}
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+#footer {
+    color: dimgray;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    background: dimgray;
+    margin-top: 20px;
+}
+#header {
+    font-size: 3em;
+    text-align: center;
+    padding: 15px;
+    background: dimgray;
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+#header{
+    padding: 30px;
+    text-align: center;
+}
+.nav{
+    background-color: thistle;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.nav>li{
+    display: inline-block;
+    padding-right: 50px;
+}
+a:link,
+a:visited{
+    background-color: thistle;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover,
+a:active{
+    background-color: thistle;
+}
+.saint{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+.saint{
+    width: 50%;
+    float: right;
+}
+.saint{
+    margin: 0 auto;
+    display: flex;
+}
+.body{
+    background: url(saint.jpg)
+}
