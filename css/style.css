@@ -1,0 +1,46 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* Entrance Titlepicture */
+.view {
+        background-image: url("../assets/titlepicture.jpg");
+        background-repeat: no-repeat;
+        background-size: inherit;
+}
+
+/* !Entrance Animation! */
+.portfoliotitle {
+    padding-top: 150px;
+    text-align: center;
+    animation: zoom 4s;
+    height: 100%;
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: pink;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: plum; 
+    }
+}
