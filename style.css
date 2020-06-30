@@ -1,0 +1,75 @@
+/* Overall  */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600&display=swap');
+
+html,
+body,
+header,
+.jarallax {
+ height: 700px;
+ font-family: 'Oswald', sans-serif;
+}
+
+
+/* Logo  */
+.logo {
+  height: 120px;
+  width: 10%;
+  padding-left: 5%;
+  padding-top: 25px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+
+/* Navbar  */
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: lightpink;
+  }
+}
+
+h3,
+p {
+  color: white;
+}
+
+
+/* Body  */
+body {
+  background-color: #090909;
+}
+
+
+/* Contents  */
+strong {
+  color: mediumvioletred;
+}
+
+h6 {
+  color: lightpink;
+}
+
+#card {
+  margin-top: 30px;
+}
+
+video {
+  margin-bottom: 15px;
+}
+
+
+/* Footer  */
+footer {
+  color: deeppink;
+}
+
